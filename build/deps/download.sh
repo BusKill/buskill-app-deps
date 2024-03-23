@@ -45,6 +45,7 @@ ${PYTHON} -m pip install --upgrade pip==24.0
 ${PYTHON} -m pip download --no-cache-dir kivy==2.3.0 pyinstaller==6.5.0 altgraph==0.17.4 macholib==1.16.3 future==1.0.0 pefile==2023.2.7 pywin32-ctypes==0.2.2 setuptools==69.1.1 wheel==0.42.0 virtualenv==20.25.1
 
 # pip (platform-specific binaries/wheels)
+${WGET} `${CURL} -s https://pypi.org/simple/kivy/ | grep -oE 'https://.*Kivy-2.3.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#'`
 ${WGET} `${CURL} -s https://pypi.org/simple/kivy/ | grep -oE 'https://.*Kivy-2.3.0-cp312-cp312-win_amd64.whl#'`
 ${WGET} `${CURL} -s https://pypi.org/simple/kivy/ | grep -oE 'https://.*Kivy-2.3.0-cp37-cp37m-macosx_10_9_x86_64.whl#'`
 ${WGET} `${CURL} -s https://pypi.org/simple/pypiwin32/ | grep -oE 'https://.*pypiwin32-223-py3-none-any.whl#'`
