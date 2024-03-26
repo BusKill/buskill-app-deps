@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:b3b4bcbdcacf56351e26063c99b907523c06cd384d9eea604316720b2b4586d7",
+      "size": 2440,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 12"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.2.monterey",
+        "sh.brew.bottle.digest": "f5491b50e786a11f8df8b2403f1c752d34daa9aa0653fbf52318afa612b45dcc",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.5.9-135-g6096bc6\",\"changed_files\":[\"lib/cmake/SDL2_mixer/sdl2_mixer-config.cmake\",\"lib/pkgconfig/SDL2_mixer.pc\"],\"source_modified_time\":1660930175,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":false},{\"full_name\":\"flac\",\"version\":\"1.3.4\",\"declared_directly\":true},{\"full_name\":\"libmodplug\",\"version\":\"0.8.9.0\",\"declared_directly\":true},{\"full_name\":\"libvorbis\",\"version\":\"1.3.7\",\"declared_directly\":true},{\"full_name\":\"mpg123\",\"version\":\"1.30.2\",\"declared_directly\":true},{\"full_name\":\"sdl2\",\"version\":\"2.0.22\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12\",\"cpu_family\":\"penryn\",\"xcode\":\"13.4\",\"clt\":\"13.4.0.0.1.1651278267\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:a37193dd90226ab2367335c6bad36d02087f33d1e002050ea44a902521e1636a",
+      "size": 2436,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 10.15.7"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.2.catalina",
+        "sh.brew.bottle.digest": "c04088e4f0404296e684cb36096279bbc973ebedbad9984c1f8f3c559fc64756",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.5.9-135-g6096bc6\",\"changed_files\":[\"lib/cmake/SDL2_mixer/sdl2_mixer-config.cmake\",\"lib/pkgconfig/SDL2_mixer.pc\"],\"source_modified_time\":1660930175,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":false},{\"full_name\":\"flac\",\"version\":\"1.3.4\",\"declared_directly\":true},{\"full_name\":\"libmodplug\",\"version\":\"0.8.9.0\",\"declared_directly\":true},{\"full_name\":\"libvorbis\",\"version\":\"1.3.7\",\"declared_directly\":true},{\"full_name\":\"mpg123\",\"version\":\"1.30.2\",\"declared_directly\":true},{\"full_name\":\"sdl2\",\"version\":\"2.0.22\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 10.15.7\",\"cpu_family\":\"penryn\",\"xcode\":\"12.4\",\"clt\":\"12.0.0.32.29\",\"preferred_perl\":\"5.18\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:23d1b92ea9fc7dad19278de73fa6a6f1451d78eaa4b015ef3fa1e95d38044faa",
+      "size": 2473,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 12"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.2.arm64_monterey",
+        "sh.brew.bottle.digest": "e5b94cc708bc31845f609f89b804641d64c0e0b157a5cb469bdd8a3b1abe9b16",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.5.9-135-g6096bc6\",\"changed_files\":[\"lib/cmake/SDL2_mixer/sdl2_mixer-config.cmake\",\"lib/pkgconfig/SDL2_mixer.pc\"],\"source_modified_time\":1660930175,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":false},{\"full_name\":\"flac\",\"version\":\"1.3.4\",\"declared_directly\":true},{\"full_name\":\"libmodplug\",\"version\":\"0.8.9.0\",\"declared_directly\":true},{\"full_name\":\"libvorbis\",\"version\":\"1.3.7\",\"declared_directly\":true},{\"full_name\":\"mpg123\",\"version\":\"1.30.2\",\"declared_directly\":true},{\"full_name\":\"sdl2\",\"version\":\"2.0.22\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12\",\"cpu_family\":\"arm_firestorm_icestorm\",\"xcode\":\"13.4\",\"clt\":\"13.4.0.0.1.1651278267\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:7d1900714f9113071c2df1ec4d322563e4c68ef41a70fe5dc938c495c09b6363",
+      "size": 2474,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 11.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.2.arm64_big_sur",
+        "sh.brew.bottle.digest": "a2b8cae3cd3ccc3f6233e3520b935fcd6501c4c9796e1e3c43d41f065eef4fef",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.5.9-135-g6096bc6\",\"changed_files\":[\"lib/cmake/SDL2_mixer/sdl2_mixer-config.cmake\",\"lib/pkgconfig/SDL2_mixer.pc\"],\"source_modified_time\":1660930175,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":false},{\"full_name\":\"flac\",\"version\":\"1.3.4\",\"declared_directly\":true},{\"full_name\":\"libmodplug\",\"version\":\"0.8.9.0\",\"declared_directly\":true},{\"full_name\":\"libvorbis\",\"version\":\"1.3.7\",\"declared_directly\":true},{\"full_name\":\"mpg123\",\"version\":\"1.30.2\",\"declared_directly\":true},{\"full_name\":\"sdl2\",\"version\":\"2.0.22\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.6\",\"cpu_family\":\"arm_firestorm_icestorm\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:90ceab615168ce53fe7e6f3b9c5ca27c236f6ade032bab6294df385604cda0d5",
+      "size": 2441,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 11.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.2.big_sur",
+        "sh.brew.bottle.digest": "7e2b2c284949698bd612764c3eeab7fd2f4a3ae740e2803c369088265860b0a5",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.5.9-135-g6096bc6\",\"changed_files\":[\"lib/cmake/SDL2_mixer/sdl2_mixer-config.cmake\",\"lib/pkgconfig/SDL2_mixer.pc\"],\"source_modified_time\":1660930175,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":false},{\"full_name\":\"flac\",\"version\":\"1.3.4\",\"declared_directly\":true},{\"full_name\":\"libmodplug\",\"version\":\"0.8.9.0\",\"declared_directly\":true},{\"full_name\":\"libvorbis\",\"version\":\"1.3.7\",\"declared_directly\":true},{\"full_name\":\"mpg123\",\"version\":\"1.30.2\",\"declared_directly\":true},{\"full_name\":\"sdl2\",\"version\":\"2.0.22\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 11.6\",\"cpu_family\":\"penryn\",\"xcode\":\"13.2.1\",\"clt\":\"13.2.0.0.1.1638488800\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:9f0f56e9fd34d0375c65930f64748b030997262fd3dbbc51a91415dba0caf4dc",
+      "size": 5908,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "5.15.0-1017-azure"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.2.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "b38a4c9dc9f8b383818b7a724daa3c970068d4549f4c0f5606b8696a374a4e2b",
+        "sh.brew.bottle.glibc.version": "2.23",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.5.9-135-g6096bc6\",\"changed_files\":[\"lib/cmake/SDL2_mixer/sdl2_mixer-config.cmake\",\"lib/pkgconfig/SDL2_mixer.pc\"],\"source_modified_time\":1660930175,\"compiler\":\"gcc-5\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":false},{\"full_name\":\"flac\",\"version\":\"1.3.4\",\"declared_directly\":true},{\"full_name\":\"libmodplug\",\"version\":\"0.8.9.0\",\"declared_directly\":true},{\"full_name\":\"libvorbis\",\"version\":\"1.3.7\",\"declared_directly\":true},{\"full_name\":\"mpg123\",\"version\":\"1.30.2\",\"declared_directly\":true},{\"full_name\":\"xorgproto\",\"version\":\"2022.2\",\"declared_directly\":false},{\"full_name\":\"libice\",\"version\":\"1.0.10\",\"declared_directly\":false},{\"full_name\":\"pkg-config\",\"version\":\"0.29.2\",\"declared_directly\":false},{\"full_name\":\"libpthread-stubs\",\"version\":\"0.4\",\"declared_directly\":false},{\"full_name\":\"libxau\",\"version\":\"1.0.9\",\"declared_directly\":false},{\"full_name\":\"libxdmcp\",\"version\":\"1.1.3\",\"declared_directly\":false},{\"full_name\":\"libxcb\",\"version\":\"1.15\",\"declared_directly\":false},{\"full_name\":\"libx11\",\"version\":\"1.8.1\",\"declared_directly\":false},{\"full_name\":\"libxfixes\",\"version\":\"6.0.0\",\"declared_directly\":false},{\"full_name\":\"libxrender\",\"version\":\"0.9.10\",\"declared_directly\":false},{\"full_name\":\"libxcursor\",\"version\":\"1.2.1\",\"declared_directly\":false},{\"full_name\":\"libxext\",\"version\":\"1.3.4\",\"declared_directly\":false},{\"full_name\":\"libxscrnsaver\",\"version\":\"1.2.3\",\"declared_directly\":false},{\"full_name\":\"libxxf86vm\",\"version\":\"1.1.4\",\"declared_directly\":false},{\"full_name\":\"json-c\",\"version\":\"0.16\",\"declared_directly\":false},{\"full_name\":\"opus\",\"version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"libsndfile\",\"version\":\"1.1.0\",\"declared_directly\":false},{\"full_name\":\"libsoxr\",\"version\":\"0.1.3\",\"declared_directly\":false},{\"full_name\":\"m4\",\"version\":\"1.4.19\",\"declared_directly\":false},{\"full_name\":\"libtool\",\"version\":\"2.4.7\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2022-07-19\",\"declared_directly\":false},{\"full_name\":\"openssl@1.1\",\"version\":\"1.1.1q\",\"declared_directly\":false},{\"full_name\":\"speexdsp\",\"version\":\"1.2.1\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.4.8\",\"declared_directly\":false},{\"full_name\":\"dbus\",\"version\":\"1.14.0\",\"declared_directly\":false},{\"full_name\":\"icu4c\",\"version\":\"70.1\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.3\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.1.2\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.2.12\",\"declared_directly\":false},{\"full_name\":\"libxml2\",\"version\":\"2.10.0\",\"declared_directly\":false},{\"full_name\":\"gettext\",\"version\":\"0.21\",\"declared_directly\":false},{\"full_name\":\"libffi\",\"version\":\"3.4.2\",\"declared_directly\":false},{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"pcre\",\"version\":\"8.45\",\"declared_directly\":false},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.28\",\"declared_directly\":false},{\"full_name\":\"util-linux\",\"version\":\"2.38.1\",\"declared_directly\":false},{\"full_name\":\"glib\",\"version\":\"2.72.3\",\"declared_directly\":false},{\"full_name\":\"libcap\",\"version\":\"2.65\",\"declared_directly\":false},{\"full_name\":\"pulseaudio\",\"version\":\"14.2\",\"declared_directly\":false},{\"full_name\":\"libxi\",\"version\":\"1.8\",\"declared_directly\":false},{\"full_name\":\"libxinerama\",\"version\":\"1.1.4\",\"declared_directly\":false},{\"full_name\":\"libxrandr\",\"version\":\"1.5.2\",\"declared_directly\":false},{\"full_name\":\"xinput\",\"version\":\"1.6.3\",\"declared_directly\":false},{\"full_name\":\"sdl2\",\"version\":\"2.0.22\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"5.15.0-1017-azure\",\"cpu_family\":\"skylake\",\"glibc_version\":\"2.23\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:dab6cf1e1d13652d6bbb0cd5a5f08c735c6463dad98dd024827123ee533d8bce",
+      "size": 2452,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.2.arm64_ventura",
+        "sh.brew.bottle.digest": "7fd6ab0b615a7704a6c31069f7efd5979d7619f85793eed2e1e2c25a00d42764",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.6.6-34-gfaa9950\",\"changed_files\":[\"lib/cmake/SDL2_mixer/sdl2_mixer-config.cmake\",\"lib/pkgconfig/SDL2_mixer.pc\"],\"source_modified_time\":1660930175,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":false},{\"full_name\":\"flac\",\"version\":\"1.4.1\",\"declared_directly\":true},{\"full_name\":\"libmodplug\",\"version\":\"0.8.9.0\",\"declared_directly\":true},{\"full_name\":\"libvorbis\",\"version\":\"1.3.7\",\"declared_directly\":true},{\"full_name\":\"mpg123\",\"version\":\"1.30.2\",\"declared_directly\":true},{\"full_name\":\"sdl2\",\"version\":\"2.24.1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13\",\"cpu_family\":\"dunno\",\"xcode\":\"14.1\",\"clt\":\"14.1.0.0.1.1665256668\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:2e058890ae6068f2c606df0c2eaa687ded211ce1909a17cb0cf40e5d38e33e54",
+      "size": 2438,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.0"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "2.6.2.ventura",
+        "sh.brew.bottle.digest": "fe6119565761b503c1c0c12c4bc3b3524e5d67ee13279a988cb00f8c5924799b",
+        "sh.brew.tab": "{\"homebrew_version\":\"3.6.11-5-g06b7573\",\"changed_files\":[\"lib/cmake/SDL2_mixer/sdl2_mixer-config.cmake\",\"lib/pkgconfig/SDL2_mixer.pc\"],\"source_modified_time\":1660930175,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"libogg\",\"version\":\"1.3.5\",\"declared_directly\":false},{\"full_name\":\"flac\",\"version\":\"1.4.2\",\"declared_directly\":true},{\"full_name\":\"libmodplug\",\"version\":\"0.8.9.0\",\"declared_directly\":true},{\"full_name\":\"libvorbis\",\"version\":\"1.3.7\",\"declared_directly\":true},{\"full_name\":\"mpg123\",\"version\":\"1.31.1\",\"declared_directly\":true},{\"full_name\":\"sdl2\",\"version\":\"2.24.2\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.0\",\"cpu_family\":\"penryn\",\"xcode\":\"14.1\",\"clt\":\"14.1.0.0.1.1666437224\",\"preferred_perl\":\"5.30\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2022-08-19",
+    "org.opencontainers.image.description": "Sample multi-channel audio mixer library",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/sdl2_mixer",
+    "org.opencontainers.image.license": "Zlib",
+    "org.opencontainers.image.ref.name": "2.6.2",
+    "org.opencontainers.image.revision": "d829803b226d02e4e4b7370e6ea6cec017223adb",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/d829803b226d02e4e4b7370e6ea6cec017223adb/Formula/sdl2_mixer.rb",
+    "org.opencontainers.image.title": "sdl2_mixer",
+    "org.opencontainers.image.url": "https://github.com/libsdl-org/SDL_mixer",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "2.6.2"
+  }
+}
