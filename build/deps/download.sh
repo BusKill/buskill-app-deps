@@ -10,8 +10,8 @@ set -x
 # Note:    This script was built to be run in Debian or TAILS
 # Authors: Michael Altfield <michael@buskill.in>
 # Created: 2020-07-08
-# Updated: 2024-03-15
-# Version: 0.2
+# Updated: 2024-03-26
+# Version: 0.3
 ################################################################################
 
 sudo apt-get -y install python3-pip python3-setuptools
@@ -59,7 +59,8 @@ ${WGET} https://github.com/niess/python-appimage/releases/download/python3.12/py
 ${WGET} https://github.com/AppImage/AppImageKit/releases/download/13/appimagetool-x86_64.AppImage
 ${WGET} --output-document=squashfs4.4.tar.gz https://sourceforge.net/projects/squashfs/files/squashfs/squashfs4.4/squashfs4.4.tar.gz/download
 
-# misc windows
+# misc windows (choose the latest version of python that's available in
+# Debian stable)
 ${WGET} https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe
 ${WGET} https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe.asc
 
@@ -73,9 +74,11 @@ ${WGET} https://github.com/libusb/libusb/releases/download/v1.0.27/libusb-1.0.27
 # * https://github.com/orgs/Homebrew/discussions/691
 # * https://apple.stackexchange.com/questions/470937/how-to-get-the-url-to-download-a-homebrew-bottle
 # * https://stackoverflow.com/questions/78164818/how-to-download-a-file-from-github-container-registry-cli-command-github-packa
+# * https://github.com/BusKill/buskill-app/issues/78#issuecomment-2015962034
 
-#${WGET} https://homebrew.bintray.com/bottles/wget-1.20.3_2.catalina.bottle.tar.gz
+# choose the latest version of python that's available in Debian stable
 #${WGET} https://homebrew.bintray.com/bottles/python-3.7.8.catalina.bottle.tar.gz
+#${WGET} https://homebrew.bintray.com/bottles/wget-1.20.3_2.catalina.bottle.tar.gz
 #${WGET} https://homebrew.bintray.com/bottles/sdl2-2.0.12_1.catalina.bottle.tar.gz
 #${WGET} https://homebrew.bintray.com/bottles/sdl2_image-2.0.5.catalina.bottle.tar.gz
 #${WGET} https://homebrew.bintray.com/bottles/sdl2_ttf-2.0.15.catalina.bottle.tar.gz

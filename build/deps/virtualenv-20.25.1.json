@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c95a57b88ff4f06512486eb3f0839926ca15cd8421609739aed06e4cb5cdae59",
+      "size": 2934,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20.25.1.arm64_monterey",
+        "sh.brew.bottle.digest": "d38548451acc5fb4a5ca7928d968d59866a5883f9aaedb16965af083f462687a",
+        "sh.brew.bottle.size": "4242969",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.2.9-63-g6a9c9c0\",\"changed_files\":[\"libexec/bin/virtualenv\",\"libexec/lib/python3.12/site-packages/platformdirs/macos.py\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1580601600,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"mpdecimal\",\"version\":\"4.0.0\",\"revision\":0,\"pkg_version\":\"4.0.0\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2023-12-12\",\"revision\":0,\"pkg_version\":\"2023-12-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.2.1\",\"revision\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.7\",\"revision\":0,\"pkg_version\":\"8.2.7\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.45.1\",\"revision\":0,\"pkg_version\":\"3.45.1\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.5\",\"revision\":0,\"pkg_version\":\"5.4.5\",\"declared_directly\":false},{\"full_name\":\"python@3.12\",\"version\":\"3.12.2\",\"revision\":1,\"pkg_version\":\"3.12.2_1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"dunno\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:02066ddf22ee3fdae024f61ea8e6bfe1725b0e8f75ba1ebe1581338f761210b2",
+      "size": 2926,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20.25.1.arm64_sonoma",
+        "sh.brew.bottle.digest": "ce166d1409317827cb154058bb6ba51b16709bd446fcf9db02c3bc27b187c9ea",
+        "sh.brew.bottle.size": "4242967",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.2.9-63-g6a9c9c0\",\"changed_files\":[\"libexec/bin/virtualenv\",\"libexec/lib/python3.12/site-packages/platformdirs/macos.py\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1580601600,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"mpdecimal\",\"version\":\"4.0.0\",\"revision\":0,\"pkg_version\":\"4.0.0\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2023-12-12\",\"revision\":0,\"pkg_version\":\"2023-12-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.2.1\",\"revision\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.7\",\"revision\":0,\"pkg_version\":\"8.2.7\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.45.1\",\"revision\":0,\"pkg_version\":\"3.45.1\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.5\",\"revision\":0,\"pkg_version\":\"5.4.5\",\"declared_directly\":false},{\"full_name\":\"python@3.12\",\"version\":\"3.12.2\",\"revision\":1,\"pkg_version\":\"3.12.2_1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"dunno\",\"xcode\":\"15.1\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:8d4ebe87ee9f4fe3707e7415260b1265e59ec36df4464fe861623e446cc3bc6f",
+      "size": 2931,
+      "platform": {
+        "architecture": "arm64",
+        "os": "darwin",
+        "os.version": "macOS 13.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20.25.1.arm64_ventura",
+        "sh.brew.bottle.digest": "85ea4dd6c2e5feef6da04209e859e949bead8c54ad2fa6fb4979af968150242d",
+        "sh.brew.bottle.size": "4242972",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.2.9-63-g6a9c9c0\",\"changed_files\":[\"libexec/bin/virtualenv\",\"libexec/lib/python3.12/site-packages/platformdirs/macos.py\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1580601600,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"mpdecimal\",\"version\":\"4.0.0\",\"revision\":0,\"pkg_version\":\"4.0.0\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2023-12-12\",\"revision\":0,\"pkg_version\":\"2023-12-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.2.1\",\"revision\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.7\",\"revision\":0,\"pkg_version\":\"8.2.7\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.45.1\",\"revision\":0,\"pkg_version\":\"3.45.1\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.5\",\"revision\":0,\"pkg_version\":\"5.4.5\",\"declared_directly\":false},{\"full_name\":\"python@3.12\",\"version\":\"3.12.2\",\"revision\":1,\"pkg_version\":\"3.12.2_1\",\"declared_directly\":true}],\"arch\":\"arm64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.6\",\"cpu_family\":\"dunno\",\"xcode\":\"15.1\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:98549f71d7196fb707951afd8c91443b77006f7463e5314feafba2287ba49234",
+      "size": 2996,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 12.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20.25.1.monterey",
+        "sh.brew.bottle.digest": "1227fc3f90895fd0c1b066b7d0d44e5a0e7ce5362a830ea56dd616b2f0c0be0f",
+        "sh.brew.bottle.size": "4242979",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.2.9-63-g6a9c9c0\",\"changed_files\":[\"libexec/bin/virtualenv\",\"libexec/lib/python3.12/site-packages/platformdirs/unix.py\",\"libexec/lib/python3.12/site-packages/platformdirs-4.2.0.dist-info/METADATA\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1580601600,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"mpdecimal\",\"version\":\"4.0.0\",\"revision\":0,\"pkg_version\":\"4.0.0\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2023-12-12\",\"revision\":0,\"pkg_version\":\"2023-12-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.2.1\",\"revision\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.7\",\"revision\":0,\"pkg_version\":\"8.2.7\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.45.1\",\"revision\":0,\"pkg_version\":\"3.45.1\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.5\",\"revision\":0,\"pkg_version\":\"5.4.5\",\"declared_directly\":false},{\"full_name\":\"python@3.12\",\"version\":\"3.12.2\",\"revision\":1,\"pkg_version\":\"3.12.2_1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 12.6\",\"cpu_family\":\"penryn\",\"xcode\":\"14.2\",\"clt\":\"14.2.0.0.1.1668646533\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:ba556486ab6d1e39d4aadbcfc49276e37e431f853021b3b440c5ccb52087dbf7",
+      "size": 2988,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 14"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20.25.1.sonoma",
+        "sh.brew.bottle.digest": "33496628b96c259c9d292836d30f5dd19cce94bbde2a2df919313cf13bf2d92d",
+        "sh.brew.bottle.size": "4242977",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.2.9-63-g6a9c9c0\",\"changed_files\":[\"libexec/bin/virtualenv\",\"libexec/lib/python3.12/site-packages/platformdirs/unix.py\",\"libexec/lib/python3.12/site-packages/platformdirs-4.2.0.dist-info/METADATA\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1580601600,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"mpdecimal\",\"version\":\"4.0.0\",\"revision\":0,\"pkg_version\":\"4.0.0\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2023-12-12\",\"revision\":0,\"pkg_version\":\"2023-12-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.2.1\",\"revision\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.7\",\"revision\":0,\"pkg_version\":\"8.2.7\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.45.1\",\"revision\":0,\"pkg_version\":\"3.45.1\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.5\",\"revision\":0,\"pkg_version\":\"5.4.5\",\"declared_directly\":false},{\"full_name\":\"python@3.12\",\"version\":\"3.12.2\",\"revision\":1,\"pkg_version\":\"3.12.2_1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 14\",\"cpu_family\":\"penryn\",\"xcode\":\"15.1\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.34\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:c63ce6d850ac856591c91a5104991f0683d81f0d548bd74b7d27e93f0099c053",
+      "size": 2993,
+      "platform": {
+        "architecture": "amd64",
+        "os": "darwin",
+        "os.version": "macOS 13.6"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20.25.1.ventura",
+        "sh.brew.bottle.digest": "4228ed0211acbc17a62ca52d0de8cb61eb100965653536a80f5c9d21aa8a5674",
+        "sh.brew.bottle.size": "4242967",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.2.9-63-g6a9c9c0\",\"changed_files\":[\"libexec/bin/virtualenv\",\"libexec/lib/python3.12/site-packages/platformdirs/unix.py\",\"libexec/lib/python3.12/site-packages/platformdirs-4.2.0.dist-info/METADATA\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1580601600,\"compiler\":\"clang\",\"runtime_dependencies\":[{\"full_name\":\"mpdecimal\",\"version\":\"4.0.0\",\"revision\":0,\"pkg_version\":\"4.0.0\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2023-12-12\",\"revision\":0,\"pkg_version\":\"2023-12-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.2.1\",\"revision\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.7\",\"revision\":0,\"pkg_version\":\"8.2.7\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.45.1\",\"revision\":0,\"pkg_version\":\"3.45.1\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.5\",\"revision\":0,\"pkg_version\":\"5.4.5\",\"declared_directly\":false},{\"full_name\":\"python@3.12\",\"version\":\"3.12.2\",\"revision\":1,\"pkg_version\":\"3.12.2_1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Macintosh\",\"os_version\":\"macOS 13.6\",\"cpu_family\":\"penryn\",\"xcode\":\"15.1\",\"clt\":\"15.1.0.0.1.1700200546\",\"preferred_perl\":\"5.30\"}}"
+      }
+    },
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:bfc3a3410a6082733015ad8e596dacb1be9ef8e9028286cf56079862b77fdf71",
+      "size": 4370,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux",
+        "os.version": "Ubuntu 22.04.3"
+      },
+      "annotations": {
+        "org.opencontainers.image.ref.name": "20.25.1.x86_64_linux",
+        "sh.brew.bottle.cpu.variant": "core2",
+        "sh.brew.bottle.digest": "b448cdaf593688f1b3f615863e6da59fecb8448808dd7c72c5dd8c57f1864fec",
+        "sh.brew.bottle.glibc.version": "2.35",
+        "sh.brew.bottle.size": "4242917",
+        "sh.brew.tab": "{\"homebrew_version\":\"4.2.9-63-g6a9c9c0\",\"changed_files\":[\"libexec/bin/virtualenv\",\"libexec/pyvenv.cfg\"],\"source_modified_time\":1580601600,\"compiler\":\"gcc-11\",\"runtime_dependencies\":[{\"full_name\":\"mpdecimal\",\"version\":\"4.0.0\",\"revision\":0,\"pkg_version\":\"4.0.0\",\"declared_directly\":false},{\"full_name\":\"ca-certificates\",\"version\":\"2023-12-12\",\"revision\":0,\"pkg_version\":\"2023-12-12\",\"declared_directly\":false},{\"full_name\":\"openssl@3\",\"version\":\"3.2.1\",\"revision\":0,\"pkg_version\":\"3.2.1\",\"declared_directly\":false},{\"full_name\":\"ncurses\",\"version\":\"6.4\",\"revision\":0,\"pkg_version\":\"6.4\",\"declared_directly\":false},{\"full_name\":\"readline\",\"version\":\"8.2.7\",\"revision\":0,\"pkg_version\":\"8.2.7\",\"declared_directly\":false},{\"full_name\":\"zlib\",\"version\":\"1.3.1\",\"revision\":0,\"pkg_version\":\"1.3.1\",\"declared_directly\":false},{\"full_name\":\"sqlite\",\"version\":\"3.45.1\",\"revision\":0,\"pkg_version\":\"3.45.1\",\"declared_directly\":false},{\"full_name\":\"xz\",\"version\":\"5.4.5\",\"revision\":0,\"pkg_version\":\"5.4.5\",\"declared_directly\":false},{\"full_name\":\"bzip2\",\"version\":\"1.0.8\",\"revision\":0,\"pkg_version\":\"1.0.8\",\"declared_directly\":false},{\"full_name\":\"expat\",\"version\":\"2.6.0\",\"revision\":0,\"pkg_version\":\"2.6.0\",\"declared_directly\":false},{\"full_name\":\"libedit\",\"version\":\"20230828-3.1\",\"revision\":0,\"pkg_version\":\"20230828-3.1\",\"declared_directly\":false},{\"full_name\":\"libffi\",\"version\":\"3.4.6\",\"revision\":0,\"pkg_version\":\"3.4.6\",\"declared_directly\":false},{\"full_name\":\"libxcrypt\",\"version\":\"4.4.36\",\"revision\":0,\"pkg_version\":\"4.4.36\",\"declared_directly\":false},{\"full_name\":\"unzip\",\"version\":\"6.0\",\"revision\":8,\"pkg_version\":\"6.0_8\",\"declared_directly\":false},{\"full_name\":\"berkeley-db@5\",\"version\":\"5.3.28\",\"revision\":1,\"pkg_version\":\"5.3.28_1\",\"declared_directly\":false},{\"full_name\":\"krb5\",\"version\":\"1.21.2\",\"revision\":0,\"pkg_version\":\"1.21.2\",\"declared_directly\":false},{\"full_name\":\"libtirpc\",\"version\":\"1.3.3\",\"revision\":0,\"pkg_version\":\"1.3.3\",\"declared_directly\":false},{\"full_name\":\"libnsl\",\"version\":\"2.0.1\",\"revision\":0,\"pkg_version\":\"2.0.1\",\"declared_directly\":false},{\"full_name\":\"python@3.12\",\"version\":\"3.12.2\",\"revision\":1,\"pkg_version\":\"3.12.2_1\",\"declared_directly\":true}],\"arch\":\"x86_64\",\"built_on\":{\"os\":\"Linux\",\"os_version\":\"Ubuntu 22.04.3\",\"cpu_family\":\"zen3\",\"glibc_version\":\"2.35\",\"oldest_cpu_family\":\"core2\"}}"
+      }
+    }
+  ],
+  "annotations": {
+    "com.github.package.type": "homebrew_bottle",
+    "org.opencontainers.image.created": "2024-02-22",
+    "org.opencontainers.image.description": "Tool for creating isolated virtual python environments",
+    "org.opencontainers.image.documentation": "https://formulae.brew.sh/formula/virtualenv",
+    "org.opencontainers.image.license": "MIT",
+    "org.opencontainers.image.ref.name": "20.25.1",
+    "org.opencontainers.image.revision": "e78e3018eb784b9290be965c0419f90fac73c82e",
+    "org.opencontainers.image.source": "https://github.com/homebrew/homebrew-core/blob/e78e3018eb784b9290be965c0419f90fac73c82e/Formula/v/virtualenv.rb",
+    "org.opencontainers.image.title": "virtualenv",
+    "org.opencontainers.image.url": "https://virtualenv.pypa.io/",
+    "org.opencontainers.image.vendor": "homebrew",
+    "org.opencontainers.image.version": "20.25.1"
+  }
+}
