@@ -57,6 +57,7 @@ ${WGET} `${CURL} -s https://pypi.org/simple/pyinstaller/ | grep -oE 'https://.*p
 
 # misc linux
 ${WGET} https://github.com/niess/python-appimage/releases/download/python3.12/python3.12.2-cp312-cp312-manylinux2014_x86_64.AppImage
+${WGET} https://github.com/niess/python-appimage/releases/download/python3.12/python3.12.12-cp312-cp312-manylinux2014_aarch64.AppImage
 ${WGET} https://github.com/AppImage/AppImageKit/releases/download/13/appimagetool-x86_64.AppImage
 ${WGET} --output-document=squashfs4.4.tar.gz https://sourceforge.net/projects/squashfs/files/squashfs/squashfs4.4/squashfs4.4.tar.gz/download
 

@@ -11,3 +11,15 @@ For more info, see:
  * https://github.com/BusKill/buskill-app/issues/2
  * https://github.com/BusKill/buskill-app/issues/78
  * https://github.com/BusKill/buskill-app/issues/24
+
+# Resign Instructions
+
+After you update the contents of the `build/deps/` directory, you can run the following commands to update the `SHA256SUSM` digest file and its detached signature file `SHA256SUMS.asc`
+
+```
+cd buskill-app-deps/build/deps
+sha256sum * > SHA256SUMS
+sed -i '/SHA256SUMS/d' SHA256SUMS
+sed -i '/download.sh/d' SHA256SUMS
+gpg --default-key 'E0AF FF57 DC00 FBE0 5635  8761 4AE2 1E19 36CE 786A' --textmode --armor -b SHA256SUMS
+```
