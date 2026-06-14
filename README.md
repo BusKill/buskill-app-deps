@@ -21,5 +21,5 @@ cd buskill-app-deps/build/deps
 sha256sum * > SHA256SUMS
 sed -i '/SHA256SUMS/d' SHA256SUMS
 sed -i '/download.sh/d' SHA256SUMS
-gpg --default-key 'E0AF FF57 DC00 FBE0 5635  8761 4AE2 1E19 36CE 786A' --textmode --armor -b SHA256SUMS
+gpg --local-user 'E0AF FF57 DC00 FBE0 5635  8761 4AE2 1E19 36CE 786A' --textmode --armor -b SHA256SUMS
 ```
